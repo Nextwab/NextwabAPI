@@ -39,12 +39,13 @@ class Linker {
 		
 		
 		$Output	= curl_exec($CURL);
+		$Infos 	= curl_getinfo($CURL);
 		$Error	= curl_error($CURL);
 		
 		$API_Reply = json_decode($Output, true);
 		
 		// Instantiate an InternalExchange 
-		$Return = \Nextwab\Core\InternalExchange::Store( array('API_Reply' 		=> $API_Reply ));
+		$Return = \Nextwab\Core\InternalExchange::Store( array('API_Reply' 		=> $API_Reply , 'Query' => $Infos, 'API_RawReply' => $Output ));
 		
 		// If CURL Error occured
 		if($Error)

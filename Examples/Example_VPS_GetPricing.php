@@ -18,8 +18,8 @@ $NextwabAPI->Config('disable_ssl_check' , true);
 // Données à envoyer en POST
 $Datas = array(
 	'Type' 		=> 1,					// ( 1 = HDD-Linux, 2 = SSD-Linux, 3 = HDD-Windows, 4 = SSD-Windows)
-	'OS' 			=> "Ubuntu 18.04",		// Liste des OS disponible ici
- 	'vCores' 		=> 1,
+	'OS' 			=> "Ubuntu 18.04",		
+	'vCores' 		=> 1,
 	'Bandwidth'	=> 150,
 	'Ram' 		=> 1,
 	'Disk'			=> 20, 
