@@ -1,0 +1,6 @@
+v1.0 - Initial Commit :
+	First version of this API with VPS SetDataRaw Exemple 
+	
+v1.1 :
+	Adding VPS Creation example
+	Adding VPS GetPricing example
