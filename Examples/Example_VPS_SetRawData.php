@@ -1,5 +1,5 @@
 <?php
-include('NextwabAPI.php');
+include('../NextwabAPI.php');
 
 // Identifiants API disponibles dans le panel client
 $Nextwab_UserName 		= "text@test.com";
