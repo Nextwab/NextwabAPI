@@ -28,7 +28,8 @@ class Config {
 		// VPS 
 		'VPS_Creation' 		=> '/vps/create.php' ,
 		'VPS_GetPricing' 		=> '/vps/get_pricing.php' ,
-		'VPS_SetRawData' 	=> '/vps/set_data_raw.php' 
+		'VPS_SetRawData' 	=> '/vps/set_data_raw.php' ,
+		'VPS_GetList'		=> '/vps/get_list.php' ,
 
 		// Other Endpoint will be writed here
 		);		
