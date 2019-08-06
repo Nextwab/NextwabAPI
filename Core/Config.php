@@ -31,8 +31,8 @@ class Config {
 		'VPS_SetRawData' 	=> '/vps/set_data_raw.php' ,
 		'VPS_GetList'		=> '/vps/get_list.php' ,
 		'VPS_Delete'		=> '/vps/delete.php',
-		'VPS_Update'		=> '/vps/update.php'	
-		
+		'VPS_Update'		=> '/vps/update.php',
+		'VPS_SetPower'		=> '/vps/set_power.php'	
 		// Other Endpoint will be writed here
 		);		
 		
