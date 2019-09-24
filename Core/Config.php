@@ -32,7 +32,14 @@ class Config {
 		'VPS_GetList'		=> '/vps/get_list.php' ,
 		'VPS_Delete'		=> '/vps/delete.php',
 		'VPS_Update'		=> '/vps/update.php',
-		'VPS_SetPower'		=> '/vps/set_power.php'	
+		'VPS_SetPower'		=> '/vps/set_power.php',
+
+		//USER
+		'USER_Creation' 		=> '/account/create.php',	
+		
+		// CMS
+		'CMS_GetList'		=> '/cms/get_list.php',
+		'CMS_Install'		=> '/cms/install.php'
 		// Other Endpoint will be writed here
 		);		
 		
