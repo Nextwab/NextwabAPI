@@ -36,6 +36,7 @@ class Config {
 
 		//USER
 		'USER_Creation' 		=> '/account/create.php',	
+		'USER_Login' 		=> '/account/login.php',
 		
 		// CMS
 		'CMS_GetList'		=> '/cms/get_list.php',
