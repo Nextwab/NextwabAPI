@@ -18,13 +18,12 @@ $NextwabAPI->Config('disable_ssl_check', true);
 
 // Données à envoyer en POST
 $Datas = array(
-    'ID_VPS' => 000001,
-    'Name'   => 'RawDataTest_NAME',
-    'Data'   => 'RawDataTest_DATA'
+    'LOGIN_Mail'    => "test@test.com",
+    'LOGIN_HashKey' => "ODg5MzhhZTM0M2UxNGQxZDA4Mjc2ZmViMzhmYjNmYWIxOTg1",
 );
 
 // Envoi des données
-$NextwabAPI->Send('VPS_SetRawData', $Datas);
+$NextwabAPI->Send('USER_Check_API_Key', $Datas);
 
 // Gestion des resultats
 $Result     = $NextwabAPI->Result();  // Retour avancé contenant la gestion des erreurs

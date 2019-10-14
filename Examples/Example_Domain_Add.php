@@ -18,13 +18,11 @@ $NextwabAPI->Config('disable_ssl_check', true);
 
 // Données à envoyer en POST
 $Datas = array(
-    'ID_VPS' => 000001,
-    'Name'   => 'RawDataTest_NAME',
-    'Data'   => 'RawDataTest_DATA'
+    'Domain' => "domaine.fr"
 );
 
 // Envoi des données
-$NextwabAPI->Send('VPS_SetRawData', $Datas);
+$NextwabAPI->Send('Domain_Add', $Datas);
 
 // Gestion des resultats
 $Result     = $NextwabAPI->Result();  // Retour avancé contenant la gestion des erreurs

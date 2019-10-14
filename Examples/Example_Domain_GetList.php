@@ -16,15 +16,8 @@ $NextwabAPI->Login($Nextwab_UserName, $Nextwab_APIKey);
 $NextwabAPI->Config('use_raw_url', false);
 $NextwabAPI->Config('disable_ssl_check', true);
 
-// Données à envoyer en POST
-$Datas = array(
-    'ID_VPS' => 000001,
-    'Name'   => 'RawDataTest_NAME',
-    'Data'   => 'RawDataTest_DATA'
-);
-
 // Envoi des données
-$NextwabAPI->Send('VPS_SetRawData', $Datas);
+$NextwabAPI->Send('Domain_GetList');
 
 // Gestion des resultats
 $Result     = $NextwabAPI->Result();  // Retour avancé contenant la gestion des erreurs
