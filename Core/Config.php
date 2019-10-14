@@ -24,26 +24,30 @@ class Config {
 
         $EndPoints = array(
             // VPS 
-            'VPS_Creation'       => '/vps/create.php',
-            'VPS_GetPricing'     => '/vps/get_pricing.php',
-            'VPS_SetRawData'     => '/vps/set_data_raw.php',
-            'VPS_GetList'        => '/vps/get_list.php',
-            'VPS_Delete'         => '/vps/delete.php',
-            'VPS_Update'         => '/vps/update.php',
-            'VPS_SetPower'       => '/vps/set_power.php',
+            'VPS_Creation'         => '/vps/create.php',
+            'VPS_GetPricing'       => '/vps/get_pricing.php',
+            'VPS_SetRawData'       => '/vps/set_data_raw.php',
+            'VPS_GetList'          => '/vps/get_list.php',
+            'VPS_Delete'           => '/vps/delete.php',
+            'VPS_Update'           => '/vps/update.php',
+            'VPS_SetPower'         => '/vps/set_power.php',
             // USER
-            'USER_Creation'      => '/account/create.php',
-            'USER_Login'         => '/account/login.php',
-            'USER_Check_API_Key' => '/account/check_api_key.php',
+            'USER_Creation'        => '/account/create.php',
+            'USER_Login'           => '/account/login.php',
+            'USER_Check_API_Key'   => '/account/check_api_key.php',
             // DOMAIN
-            'Domain_GetList'     => '/domains/get_list.php',
-            'Domain_Add'         => '/domains/add.php',
-            'Domain_Delete'      => '/domains/delete.php',
+            'Domain_GetList'       => '/domains/get_list.php',
+            'Domain_Add'           => '/domains/add.php',
+            'Domain_Delete'        => '/domains/delete.php',
             // MySQL
-            'MySQL_GetList'         => '/mysql/get_list.php',
+            'MySQL_GetList'        => '/mysql/get_list.php',
+            'MySQL_AddUser'        => '/mysql/add_user.php',
+            'MySQL_DeleteUser'     => '/mysql/delete_user.php',
+            'MySQL_AddDatabase'    => '/mysql/add_database.php',
+            'MySQL_DeleteDatabase' => '/mysql/delete_database.php',
             // CMS
-            'CMS_GetList'        => '/cms/get_list.php',
-            'CMS_Install'        => '/cms/install.php'
+            'CMS_GetList'          => '/cms/get_list.php',
+            'CMS_Install'          => '/cms/install.php'
                 // Other Endpoint will be writed here
         );
 
