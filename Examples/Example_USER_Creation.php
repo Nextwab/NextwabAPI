@@ -18,22 +18,23 @@ $NextwabAPI->Config('disable_ssl_check', true);
 
 // Données à envoyer en POST
 $Datas = array(
-    'Account_Mail'         => "contact@nextwab.com",
-    'Account_Password'     => "ABCD1234",
-    'User_Type'            => "Classic", // ( Classic / Business )
-    'User_LastName'        => "Nom",
-    'User_FirstName'       => "Prénom",
-    'User_Birthday_Day'    => 1,
-    'User_Birthday_Month'  => 1,
-    'User_Birthday_Year'   => 1990,
-    'Address_StreetNumber' => "15",
-    'Address_StreetName'   => "Rue des Halles",
-    'Address_ZipCode'      => "75001",
-    'Address_City'         => "Paris",
-    'Address_Country'      => "FR",
-    'Business_Name'        => 'Nextwab', // Si compte business
-    'Business_Identifier'  => '798 730 826', // Si compte business
-    'Send_Welcome_Mail'    => true
+    'Account_Mail'                 => "contact@nextwab.com",
+    'Account_Password'             => "ABCD1234",
+    'Account_PasswordConfirmation' => "ABCD1234",
+    'User_Type'                    => "Classic", // ( Classic / Business )
+    'User_LastName'                => "Nom",
+    'User_FirstName'               => "Prénom",
+    'User_Birthday_Day'            => 1,
+    'User_Birthday_Month'          => 1,
+    'User_Birthday_Year'           => 1990,
+    'Address_StreetNumber'         => "15",
+    'Address_StreetName'           => "Rue des Halles",
+    'Address_ZipCode'              => "75001",
+    'Address_City'                 => "Paris",
+    'Address_Country'              => "FR",
+    'Business_Name'                => 'Nextwab', // Si compte business
+    'Business_Identifier'          => '798 730 826', // Si compte business
+    'Send_Welcome_Mail'            => true
 );
 
 // Envoi des données

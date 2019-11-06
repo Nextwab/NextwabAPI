@@ -33,6 +33,7 @@ class Config {
             'VPS_SetPower'         => '/vps/set_power.php',
             // USER
             'USER_Creation'        => '/account/create.php',
+            'USER_GetInfos'        => '/account/infos.php',
             'USER_Login'           => '/account/login.php',
             'USER_Check_API_Key'   => '/account/check_api_key.php',
             // DOMAIN
