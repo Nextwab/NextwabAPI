@@ -27,10 +27,13 @@ class Config {
             'VPS_Creation'         => '/vps/create.php',
             'VPS_GetPricing'       => '/vps/get_pricing.php',
             'VPS_SetRawData'       => '/vps/set_data_raw.php',
-            'VPS_GetList'          => '/vps/get_list.php',
+            'VPS_GetList'          => '/vps/GetList',
             'VPS_Delete'           => '/vps/delete.php',
             'VPS_Update'           => '/vps/update.php',
             'VPS_SetPower'         => '/vps/set_power.php',
+            // TICKET
+            'TICKET_Add'           => '/tickets/add.php',
+            'TICKET_GetList'       => '/tickets/get_list.php',
             // USER
             'USER_Creation'        => '/account/create.php',
             'USER_GetInfos'        => '/account/infos.php',
@@ -38,8 +41,13 @@ class Config {
             'USER_Check_API_Key'   => '/account/check_api_key.php',
             // DOMAIN
             'Domain_GetList'       => '/domains/get_list.php',
+            'Domain_Buy'           => '/domains/buy.php',
             'Domain_Add'           => '/domains/add.php',
             'Domain_Delete'        => '/domains/delete.php',
+            // MAIL
+            'Mailbox_Add'          => '/mailbox/Create',
+            'Mailbox_GetList'      => '/mailbox/GetList',
+            'Mailbox_Delete'       => '/mailbox/Delete',
             // MySQL
             'MySQL_GetList'        => '/mysql/get_list.php',
             'MySQL_AddUser'        => '/mysql/add_user.php',
