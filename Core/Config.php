@@ -24,39 +24,43 @@ class Config {
 
         $EndPoints = array(
             // VPS 
-            'VPS_Creation'         => '/vps/create.php',
-            'VPS_GetPricing'       => '/vps/get_pricing.php',
-            'VPS_SetRawData'       => '/vps/set_data_raw.php',
-            'VPS_GetList'          => '/vps/GetList',
-            'VPS_Delete'           => '/vps/delete.php',
-            'VPS_Update'           => '/vps/update.php',
-            'VPS_SetPower'         => '/vps/set_power.php',
+            'VPS_Creation'           => '/vps/create.php',
+            'VPS_GetPricing'         => '/vps/get_pricing.php',
+            'VPS_SetRawData'         => '/vps/set_data_raw.php',
+            'VPS_GetList'            => '/vps/GetList',
+            'VPS_Delete'             => '/vps/delete.php',
+            'VPS_Update'             => '/vps/update.php',
+            'VPS_SetPower'           => '/vps/set_power.php',
             // TICKET
-            'TICKET_Add'           => '/tickets/add.php',
-            'TICKET_GetList'       => '/tickets/get_list.php',
+            'TICKET_Add'             => '/tickets/add.php',
+            'TICKET_GetList'         => '/tickets/get_list.php',
             // USER
-            'USER_Creation'        => '/account/create.php',
-            'USER_GetInfos'        => '/account/infos.php',
-            'USER_Login'           => '/account/login.php',
-            'USER_Check_API_Key'   => '/account/check_api_key.php',
+            'USER_Creation'          => '/account/create.php',
+            'USER_GetInfos'          => '/account/infos.php',
+            'USER_Login'             => '/account/login.php',
+            'USER_Check_API_Key'     => '/account/check_api_key.php',
             // DOMAIN
-            'Domain_GetList'       => '/domains/get_list.php',
-            'Domain_Buy'           => '/domains/buy.php',
-            'Domain_Add'           => '/domains/add.php',
-            'Domain_Delete'        => '/domains/delete.php',
+            'Domain_GetList'         => '/domains/get_list.php',
+            'Domain_Buy'             => '/domains/buy.php',
+            'Domain_Add'             => '/domains/add.php',
+            'Domain_Delete'          => '/domains/delete.php',
+            'Domain_Set_NameServers' => '/domain/Set_NameServers',
             // MAIL
-            'Mailbox_Add'          => '/mailbox/Create',
-            'Mailbox_GetList'      => '/mailbox/GetList',
-            'Mailbox_Delete'       => '/mailbox/Delete',
+            'Mailbox_Add'            => '/mailbox/Create',
+            'Mailbox_UpdatePassword' => '/mailbox/UpdatePassword',
+            'Mailbox_GetList'        => '/mailbox/GetList',
+            'Mailbox_Delete'         => '/mailbox/Delete',
+            'MailboxAlias_Add'       => '/mailbox_alias/Create',
+            'MailboxAlias_GetList'   => '/mailbox_alias/GetList',
             // MySQL
-            'MySQL_GetList'        => '/mysql/get_list.php',
-            'MySQL_AddUser'        => '/mysql/add_user.php',
-            'MySQL_DeleteUser'     => '/mysql/delete_user.php',
-            'MySQL_AddDatabase'    => '/mysql/add_database.php',
-            'MySQL_DeleteDatabase' => '/mysql/delete_database.php',
+            'MySQL_GetList'          => '/mysql/get_list.php',
+            'MySQL_AddUser'          => '/mysql/add_user.php',
+            'MySQL_DeleteUser'       => '/mysql/delete_user.php',
+            'MySQL_AddDatabase'      => '/mysql/add_database.php',
+            'MySQL_DeleteDatabase'   => '/mysql/delete_database.php',
             // CMS
-            'CMS_GetList'          => '/cms/get_list.php',
-            'CMS_Install'          => '/cms/install.php'
+            'CMS_GetList'            => '/cms/get_list.php',
+            'CMS_Install'            => '/cms/install.php'
                 // Other Endpoint will be writed here
         );
 
